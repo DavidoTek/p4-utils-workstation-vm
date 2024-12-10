@@ -19,3 +19,10 @@ Ubuntu 22.04 VM with the Xfce4 Desktop Environment and ETH-Zürich's [p4-utils](
 ## Shared Folder
 
 The `shared` folder is mounted inside the VM at `/shared`.
+
+## Environmental Variables
+
+Variable        | Default value
+----------------|---------------------------------
+PICOTLS_DIR     | `/home/vagrant/picotls`
+PICOQUIC_DIR    | `/home/vagrant/picoquic`

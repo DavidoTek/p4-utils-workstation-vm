@@ -18,6 +18,8 @@ make check
 
 cd ..
 
+echo "export PICOTLS_DIR=$PWD/picotls" >> ~/.bashrc
+
 ## PicoQUIC
 git clone https://github.com/private-octopus/picoquic
 cd picoquic/
@@ -27,3 +29,5 @@ cmake .
 make
 
 cd ..
+
+echo "export PICOQUIC_DIR=$PWD/picoquic" >> ~/.bashrc
