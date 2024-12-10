@@ -14,7 +14,7 @@ Ubuntu 22.04 VM with the Xfce4 Desktop Environment and ETH-Zürich's [p4-utils](
 
 1. Install Vagrant: https://developer.hashicorp.com/vagrant/install
 2. Install VirtualBox: https://www.virtualbox.org/wiki/Downloads
-3. Run `vagrant up`. You may need to start VirtualBox before running the command to prevent permission errors.
+3. Run `vagrant up`. This will take a while, be patient. You may need to start VirtualBox before running the command to prevent permission errors.
 
 ## Shared Folder
 
