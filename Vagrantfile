@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "src/scripts/install-p4-dev.sh", privileged: false
   config.vm.provision "shell", path: "src/scripts/install-picoquic.sh", privileged: false
   config.vm.provision "shell", path: "src/scripts/install-vscode.sh", privileged: false
+  config.vm.provision "shell", path: "src/scripts/stuff.sh", privileged: false
 
   config.vm.provision "file", source: "src/assets/shared_folder.desktop", destination: "/home/vagrant/Desktop/shared_folder.desktop"
 
