@@ -1,6 +1,6 @@
 # P4-Utils Workstation Vagrant VM
 
-Ubuntu 22.04 VM with the Xfce4 Desktop Environment and ETH-Zürich's [p4-utils](https://github.com/nsg-ethz/p4-utils). Using the VirtualBox provider.
+Ubuntu 22.04 VM with the LXQt Desktop Environment and ETH-Zürich's [p4-utils](https://github.com/nsg-ethz/p4-utils). Using the VirtualBox provider.
 
 <img src="screenshot.png" width="600px" />
 

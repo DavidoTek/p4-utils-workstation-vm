@@ -13,7 +13,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.synced_folder "shared", "/shared", disabled: false
 
-  config.vm.provision "shell", path: "src/scripts/install-xfce4-sddm.sh", privileged: true
+  # config.vm.provision "shell", path: "src/scripts/install-xfce4-sddm.sh", privileged: true
+  config.vm.provision "shell", path: "src/scripts/install-lxqt-desktop.sh", privileged: true
   config.vm.provision "shell", path: "src/scripts/install-virtualbox-gu.sh", privileged: true
   config.vm.provision "shell", path: "src/scripts/install-p4-dev.sh", privileged: false
   config.vm.provision "shell", path: "src/scripts/install-picoquic.sh", privileged: false
